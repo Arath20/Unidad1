@@ -10,6 +10,6 @@
    <children>
       <TextArea fx:id="txtReceta" layoutX="14.0" layoutY="14.0" prefHeight="472.0" prefWidth="205.0" />
       <Label fx:id="lblLineas" layoutX="236.0" layoutY="14.0" text="Cantidad de Lineas" />
-      <Button layoutX="236.0" layoutY="44.0" mnemonicParsing="false" text="Procesar" />
+      <Button layoutX="236.0" layoutY="44.0" mnemonicParsing="false" onAction="#procesar" text="Procesar" />
    </children>
 </AnchorPane>
