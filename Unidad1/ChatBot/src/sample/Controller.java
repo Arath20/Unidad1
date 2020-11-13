@@ -19,7 +19,7 @@ public class Controller {
             //IMPORTANTE LEER
             //Profe el getCode me marca error y no me aparece en las opciones
             //No sé a que se deba, pero el programa quiero pensar que está correcto y corre porque seguí los pasos del video :)
-            
+
             Label label=new Label("Usuario dice: "txtMensaje.getText());
             vBox.getChildren().add(label);
 
